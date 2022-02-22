@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Nov 14, 2021 00:00:00').getTime(),
+let countDown = new Date('Feb 22, 2022 09:30:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -146,14 +146,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Pagi ini 14 November 2021", " ", "Seutas cahaya menembus, sela sela daun belimbing wuluh", "Masuk lewat jendela kacamu, warnanya mera kuning hijau", "Menyentuh nyentuh pipimu, ingin mengucapkan sesuatu", " ", "Tetapi, terdiam kena sorot matamu dan nun seekor balam", , "Di atas ranting tergoyang menunggu, dan seekor lagi hinggap di sisinya", "Beradu paruh dan meluncur, di sela sela rimbun cahaya pagi", "Menyama sepasang penari, berputar putar sebentar lalu menghampiri jendela kacamu", "Mengetuk ngetukan paruh berkata sangat perlahan", " ", "<b>Selamat Ulang Tahun Kk Fadila</b>"],
+  strings: ["Pagi ini 22 Februari 2022", " ", "Seutas cahaya menembus, sela sela daun belimbing wuluh", "Masuk lewat jendela kacamu, warnanya mera kuning hijau", "Menyentuh nyentuh pipimu, ingin mengucapkan sesuatu", " ", "Tetapi, terdiam kena sorot matamu dan nun seekor balam", , "Di atas ranting tergoyang menunggu, dan seekor lagi hinggap di sisinya", "Beradu paruh dan meluncur, di sela sela rimbun cahaya pagi", "Menyama sepasang penari, berputar putar sebentar lalu menghampiri jendela kacamu", "Mengetuk ngetukan paruh berkata sangat perlahan", " ", "<b>Selamat Ulang Tahun Nana</b>"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Assalamualaikum, kak fadila!!", "Happy Birthday ya..", " ", "Ciie udah nambah tua aja, Padahal baru aja kemarin ganti umur sekarang udah ganti lagi, emang gak kerasa yaa cepet banget, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang lebih bagus dari ini. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin.", " ", "<b>- Salam Hangat, Jayyid Saputra.</b>"],
+  strings: ["Assalamualaikum, bestiee!!", "Happy Birthday ya..", " ", "Ciie udah nambah tua aja, Padahal baru aja kemarin ganti umur sekarang udah ganti lagi, emang gak kerasa yaa cepet banget, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang lebih bagus dari ini. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin.", " ", "<b>- Salam Hangat, Jayyid Saputra.</b>"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
